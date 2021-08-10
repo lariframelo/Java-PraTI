@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Calculadora
+comment0.text=\r\n\ Calculadora\ simples\ \r\n\ \r\n\ @author\ (Larissa\ Fraga\ Melo\ )\ \r\n\r\n
+comment1.params=n1\ n2\ op
+comment1.target=double\ exec(double,\ double,\ java.lang.String)
+comment1.text=\r\n\ \r\n
+numComments=2

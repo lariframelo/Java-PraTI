@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Monitor
+comment1.params=
+comment1.target=Monitor()
+comment2.params=
+comment2.target=void\ ligar()
+comment3.params=
+comment3.target=void\ desligar()
+comment4.params=txt
+comment4.target=void\ exibirMsg(java.lang.String)
+comment5.params=reso
+comment5.target=void\ ajustarReso(int)
+comment6.params=
+comment6.target=void\ ajustarSep()
+numComments=7

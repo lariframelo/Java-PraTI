@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Sistema
+comment1.params=
+comment1.target=void\ cadastrarCliente()
+comment2.params=
+comment2.target=void\ pesquisarCliente()
+comment3.params=pesq
+comment3.target=Cliente\ retornarCliente(java.lang.String)
+comment4.params=
+comment4.target=void\ aumentarLimite()
+numComments=5

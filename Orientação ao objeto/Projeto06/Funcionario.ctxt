@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Funcionario
+comment1.params=
+comment1.target=Funcionario()
+comment2.params=nom\ ema
+comment2.target=Funcionario(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Construtor\ para\ objetos\ da\ classe\ Funcionario\r\n
+comment3.params=nom
+comment3.target=void\ setNome(java.lang.String)
+comment3.text=\r\n\ M\u00E9todo\ que\ ajusta\ o\ nome\ do\ funcion\u00E1rio\r\n
+comment4.params=
+comment4.target=java.lang.String\ getNome()
+comment4.text=\r\n\ M\u00E9todo\ que\ identifica\ nome\ do\ funcion\u00E1rio\r\n
+comment5.params=
+comment5.target=double\ calcularSalario()
+numComments=6

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=EntradaSaida
+comment1.params=txt
+comment1.target=void\ mostrarTexto(java.lang.String)
+comment2.params=txt
+comment2.target=int\ receberInt(java.lang.String)
+comment3.params=txt
+comment3.target=java.lang.String\ receberString(java.lang.String)
+numComments=4

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Caneta
+comment1.params=cor
+comment1.target=void\ ajustarCor(java.lang.String)
+comment2.params=tamanho
+comment2.target=void\ ajustarTamanho(int)
+comment3.params=txt
+comment3.target=void\ escrever(java.lang.String)
+numComments=4
