@@ -1,33 +1,28 @@
+import javax.swing.*;
 
-/**
- * Escreva uma descrição da classe TesteJanela aqui.
- * 
- * @author (seu nome) 
- * @version (um número da versão ou uma data)
- */
 public class TesteJanela
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-
-    /**
-     * Construtor para objetos da classe TesteJanela
-     */
-    public TesteJanela()
+    public static void main(String s[])
     {
-        // inicializa variáveis de instância
-        x = 0;
-    }
-
-    /**
-     * Um exemplo de um método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   um exemplo de um parâmetro de método
-     * @return     a soma de x e y 
-     */
-    public int sampleMethod(int y)
-    {
-        // escreva seu código aqui
-        return x + y;
+        //para criar uma janela, primeiro fazemos o "buraco"
+        JFrame jan = new JFrame ("Minha Janela");
+        
+        //depois, criamos uma "moldura" com "vidro"
+        JPanel pan = new JPanel();
+        
+        //e então, criamos os "adesivos"
+        JTextField txt = new JTextField(20);
+        JLabel lab = new JLabel("Nome");
+        JButton btn = new JButton("Clique aqui");
+        
+        //DEPOIS de criar todos os elementos, é só "colar"
+        pan.add(lab); pan.add(txt); pan.add(btn);
+        jan.add(pan);
+        
+        //retoques finais (para ajustar tamanho)
+        jan.pack();
+        
+        //e por fim, "inauguração"
+        jan.setVisible(true);
     }
 }

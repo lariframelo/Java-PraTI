@@ -1,33 +1,27 @@
+import javax.swing.*;
+import java.awt.event.*;
 
-/**
- * Escreva uma descrição da classe TesteInterface aqui.
- * 
- * @author (seu nome) 
- * @version (um número da versão ou uma data)
- */
-public class TesteInterface
+public class TesteInterface extends JFrame
+                            implements ActionListener
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-
-    /**
-     * Construtor para objetos da classe TesteInterface
-     */
-    public TesteInterface()
-    {
-        // inicializa variáveis de instância
-        x = 0;
+    JPanel pan;
+    JTextField txt;
+    JButton btn;
+    
+    public TesteInterface(String tit) {
+        super(tit);
+        pan = new JPanel();
+        txt = new JTextField(30);
+        btn = new JButton("Clique aqui");
+        btn.addActionListener(this);
+        pan.add(txt);
+        pan.add(btn);
+        this.add(pan);
     }
-
-    /**
-     * Um exemplo de um método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   um exemplo de um parâmetro de método
-     * @return     a soma de x e y 
-     */
-    public int sampleMethod(int y)
-    {
-        // escreva seu código aqui
-        return x + y;
+    
+    //método que efetivamente "faz alguma coisa"
+    //quando for clicado o botão
+    public void actionPerformed(ActionEvent ae) {
+        txt.setText("agora o cara clicou no botão");
     }
 }
