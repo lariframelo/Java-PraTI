@@ -1,33 +1,22 @@
 
-/**
- * Escreva uma descrição da classe TesteString aqui.
- * 
- * @author (seu nome) 
- * @version (um número da versão ou uma data)
- */
+
 public class TesteString
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-
-    /**
-     * Construtor para objetos da classe TesteString
-     */
-    public TesteString()
-    {
-        // inicializa variáveis de instância
-        x = 0;
-    }
-
-    /**
-     * Um exemplo de um método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   um exemplo de um parâmetro de método
-     * @return     a soma de x e y 
-     */
-    public int sampleMethod(int y)
-    {
-        // escreva seu código aqui
-        return x + y;
+    public static void main(String args[]) {
+        //String é uma classe do Java
+        //portanto, as variaveis são "objetos"...
+        
+        String texto1 = "texto de teste e coisa e tal";
+        String texto2 = new String("outro texto");
+        
+        System.out.println( texto1.toUpperCase() );
+        System.out.println( texto1.substring(5,10) );
+        System.out.println( texto1.equals("asdf") );
+        System.out.println( texto1.charAt(15) );
+        
+        //declaramos um vetor (array) usando colchetes
+        //no Java, temos vetor com tipos definidos 
+        String[] vetor = texto1.split(" ");
+        System.out.println( vetor[4] );
     }
 }

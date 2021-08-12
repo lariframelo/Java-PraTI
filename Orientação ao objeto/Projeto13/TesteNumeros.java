@@ -18,7 +18,7 @@ public class TesteNumeros
         System.out.println( Math.pow(2,3) );
         System.out.println( Math.sqrt(25) );
         System.out.println( Math.sin(90) );
-        System.out.println( Math.E );
-        System.out.println( Math.PI );
+        System.out.println( Math.E );//constante
+        System.out.println( Math.PI );//contante
     }
 }

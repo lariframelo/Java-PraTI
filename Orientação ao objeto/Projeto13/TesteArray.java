@@ -1,33 +1,42 @@
-
-/**
- * Escreva uma descrição da classe TesteArray aqui.
- * 
- * @author (seu nome) 
- * @version (um número da versão ou uma data)
- */
+import java.util.*;
 public class TesteArray
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-
-    /**
-     * Construtor para objetos da classe TesteArray
-     */
-    public TesteArray()
-    {
-        // inicializa variáveis de instância
-        x = 0;
-    }
-
-    /**
-     * Um exemplo de um método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   um exemplo de um parâmetro de método
-     * @return     a soma de x e y 
-     */
-    public int sampleMethod(int y)
-    {
-        // escreva seu código aqui
-        return x + y;
-    }
+    public static void main(String args[]) {
+        //podemos declarar variáveis para comportar
+        //mais de um valor (array)
+        String[] nomes = new String[5];
+        nomes[0] = "Fulano";
+        nomes[1] = "Beltrano";
+        nomes[2] = "Teste";
+        
+        int[] idades = new int[5];
+        idades[0] = 12;
+        idades[1] = 23;
+        idades[2] = 34;
+        
+        System.out.println(nomes[1]+" com idade "+idades[1]);
+        
+        for (int i=0; i<nomes.length; i++) {
+            System.out.println(nomes[i] + " - ");
+        }
+        
+        System.out.println("\n ********* ");
+        
+        for (int i=0; i<idades.length; i++) {
+            System.out.println(idades[i] + " - ");
+        }
+        
+        System.out.println("\n\n -------------\n ");
+        
+        //outra forma de listar o conteúdo do array
+        for (String nom : nomes) {
+            System.out.print(nom + " - ");
+        }
+        
+        System.out.println("\n ********* ");
+        
+        for (int ida : idades) {
+            System.out.print(ida + " - ");
+        }
+    }   
 }
