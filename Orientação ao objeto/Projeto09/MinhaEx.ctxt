@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MinhaEx
+comment0.text=\r\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ MinhaEx\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\r\n
+comment1.params=
+comment1.target=MinhaEx()
+comment1.text=\r\n\ MinhaEx\ Construtor\r\n\r\n
+comment2.params=
+comment2.target=java.lang.String\ getBug()
+comment2.text=\r\n\ M\u00E9todo\ getBug\r\n\r\n\ @return\ O\ valor\ de\ retorno\r\n
+numComments=3

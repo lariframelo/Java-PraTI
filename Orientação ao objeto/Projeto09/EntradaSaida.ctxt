@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=EntradaSaida
+comment1.params=txt
+comment1.target=void\ mostrarTexto(java.lang.String)
+comment1.text=\r\n\ M\u00E9todo\ mostrarTexto\r\n\r\n\ @param\ txt\ Um\ par\u00E2metro\r\n
+comment2.params=msg
+comment2.target=int\ receberInt(java.lang.String)
+comment2.text=\r\n\ M\u00E9todo\ receberInt\r\n\r\n\ @param\ msg\ Um\ par\u00E2metro\r\n\ @return\ O\ valor\ de\ retorno\r\n
+comment3.params=msg
+comment3.target=java.lang.String\ receberString(java.lang.String)
+comment3.text=\r\n\ M\u00E9todo\ receberString\r\n\ \ M\u00E9todo\ para\ receber\ uma\ String\r\n\ @param\ msg\ Um\ par\u00E2metro\r\n\ @return\ um\ texto\r\n
+comment4.params=msg
+comment4.target=double\ receberDouble(java.lang.String)
+comment4.text=\r\n\ M\u00E9todo\ receberDouble\r\n\r\n\ @param\ msg\ Um\ par\u00E2metro\r\n\ @return\ O\ valor\ de\ retorno\r\n
+numComments=5

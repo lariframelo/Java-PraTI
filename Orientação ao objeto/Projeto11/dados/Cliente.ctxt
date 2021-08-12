@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Cliente
+comment0.text=\r\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Cliente\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\r\n
+comment1.params=
+comment1.target=Cliente()
+comment2.params=nome\ email\ telefone
+comment2.target=Cliente(java.lang.String,\ java.lang.String,\ long)
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment4.params=nome
+comment4.target=void\ setNome(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getEmail()
+comment6.params=email
+comment6.target=void\ setEmail(java.lang.String)
+comment7.params=
+comment7.target=long\ getTelefone()
+comment8.params=telefone
+comment8.target=void\ setTelefone(java.lang.Long)
+numComments=9
