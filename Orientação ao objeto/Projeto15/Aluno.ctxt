@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Aluno
+comment1.params=
+comment1.target=Aluno()
+comment2.params=nome\ email\ telefone
+comment2.target=Aluno(java.lang.String,\ java.lang.String,\ long)
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment4.params=nome
+comment4.target=void\ setNome(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getEmail()
+comment6.params=email
+comment6.target=void\ setEmail(java.lang.String)
+comment7.params=
+comment7.target=long\ getIdade()
+comment8.params=idade
+comment8.target=void\ setIdade(java.lang.Integer)
+numComments=9

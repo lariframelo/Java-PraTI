@@ -29,10 +29,10 @@ public class TesteDataHora2
         
         //mudando somente o valor referenciado
         cal.set(Calendar.DAY_OF_MONTH, 31);
-        cal.set(Calendar.MONTH, 11) //mês começa com 0 = janeiro
+        cal.set(Calendar.MONTH, 11); //mês começa com 0 = janeiro
         cal.set(Calendar.YEAR, 2020);
         
-        cal.roll(Calendar.DAY_OF-MONTH, 5);
+        cal.roll(Calendar.DAY_OF_MONTH, 5);
         System.out.println(fmt.format(cal.getTime()));
     }
 }
