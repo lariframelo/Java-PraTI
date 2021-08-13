@@ -4,8 +4,9 @@ public class Aluno
 {
     //definição dos atributos da classe
     private String nome;
-    private String email;
     private Integer idade;
+    private String email;
+    
     
     public Aluno() {
         this.nome = " - ";
@@ -13,7 +14,7 @@ public class Aluno
         this.idade = 0; 
     }
     
-    public Aluno(String nome, String email, long telefone) {
+    public Aluno(String nome, Integer idade, String email ) {
         this.nome = nome;
         this.email = email;
         this.idade = idade;

@@ -2,8 +2,8 @@
 comment0.target=Aluno
 comment1.params=
 comment1.target=Aluno()
-comment2.params=nome\ email\ telefone
-comment2.target=Aluno(java.lang.String,\ java.lang.String,\ long)
+comment2.params=nome\ idade\ email
+comment2.target=Aluno(java.lang.String,\ java.lang.Integer,\ java.lang.String)
 comment3.params=
 comment3.target=java.lang.String\ getNome()
 comment4.params=nome

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TesteArrayList
+comment1.params=s
+comment1.target=void\ main(java.lang.String[])
+comment2.params=lista
+comment2.target=void\ imprimirAlunos(java.util.List)
+numComments=3
