@@ -1,0 +1,1 @@
+/* Arquivos com funções Java Script */
