@@ -1,0 +1,54 @@
+/* Formatação para TODAS as tags */
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-family: Verdana;
+}
+
+/* organização das divisões de texto */
+#geral {
+	width: 700px;
+	margin: auto;
+}
+#header {
+	background-image: url(../img/header.jpg);
+	height: 130px;
+}
+#menu {
+	height: 20px;
+	padding: 10px;
+	text-align: center;
+	background-color: #86A852;
+}
+#menu a{
+	color: #FFFFFF;
+	padding: 5px;
+	text-decoration: none;
+}
+#menu a:hover{
+	color: #000000;
+	background-color: #EEEEEE;
+}
+#content{
+	padding: 10px;
+	text-align: justify;
+	background-color: #FFFFFF;
+}
+#footer{
+	height: 20px;
+	padding: 10px;
+	text-align: right;
+	background-color: #86A852;
+	font-size: 10px;
+}
+
+/* formatação para outras tags do HTML */
+html{
+	overflow-y: scroll;
+	background-color: #333333;
+}
+h1{
+	font-size: 32px;
+	margin-bottom: 15px;
+}

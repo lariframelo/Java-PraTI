@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<portfolio>
+  <livro isbn="8572516069">
+    <titulo>Introdução ao Java</titulo>
+    <autor>Peter Jandl Jr.</autor>
+    <ano>2002</ano>
+    <editora>Berkeley</editora>
+  </livro>
+
+  <livro isbn="8574131407">
+    <titulo>Mais Java</titulo>
+    <autor>Peter Jandl Jr.</autor>
+    <editora>Futura</editora>
+    <ano>2003</ano>
+  </livro>
+
+  <livro isbn="8574131725">
+    <titulo>Introdução ao C++</titulo>
+    <autor>Peter Jandl Jr.</autor>
+    <editora>Futura</editora>
+    <ano>2003</ano>
+  </livro>
+
+  <livro isbn="8575220861">
+    <titulo>Java 5: Guia de Consulta Rápida</titulo>
+    <autor>Peter Jandl Jr.</autor>
+    <editora>Novatec</editora>
+    <ano>2006</ano>
+  </livro>
+
+  <livro isbn="8575221099">
+    <titulo>Java: Guia do Programador</titulo>
+    <autor>Peter Jandl Jr.</autor>
+    <editora>Novatec</editora>
+    <ano>2007</ano>
+  </livro>
+
+  <livro isbn="8575221596">
+    <titulo>Java 6: Guia de Consulta Rápida</titulo>
+    <autor>Peter Jandl Jr.</autor>
+    <editora>Novatec</editora>
+    <ano>2008</ano>
+  </livro>
+
+  <livro isbn="858692668X">
+    <titulo>Desenvolvimento Sustentável</titulo>
+    <organizador>R. Pântano Filho, D. dos S. Rosa e L. J. M. Irias</organizador>
+    <capitulo>Em busca de um TI verde</capitulo>
+    <autor>Peter Jandl Jr.</autor>
+    <editora>Berto</editora>
+    <ano>2008</ano>
+  </livro>
+
+</portfolio>
