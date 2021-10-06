@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Caneta
+comment1.params=
+comment1.target=Caneta()
+comment2.params=txt
+comment2.target=void\ escrever(java.lang.String)
+numComments=3
